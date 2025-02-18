@@ -1,4 +1,3 @@
-def all():
     import base64
     import inspect
     import streamlit as st
@@ -65,7 +64,7 @@ def all():
     from rich import print
     # 忽略损坏的图片
     ImageFile.LOAD_TRUNCATED_IMAGES = True
-
+def all():
     with st.sidebar:
         selected = option_menu(
             menu_title='垃圾分类',
